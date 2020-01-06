@@ -1,0 +1,6 @@
+2020-01-06T11:45:23.0682673+05:30 0HLSIDV59T5AG:00000003 [INF] Started Updating the customer details for Miss Sally (96fa8f0c)
+2020-01-06T11:45:23.0827996+05:30 0HLSIDV59T5AG:00000003 [INF] Renewal Invitation letter has been generated. (0bb30114)
+2020-01-06T11:45:23.0851084+05:30 0HLSIDV59T5AG:00000003 [INF] Started Updating the customer details for Mr John (29b6c79a)
+2020-01-06T11:45:23.0887374+05:30 0HLSIDV59T5AG:00000003 [INF] Renewal Invitation letter has been generated. (0bb30114)
+2020-01-06T11:45:23.0917760+05:30 0HLSIDV59T5AG:00000003 [INF] Started Updating the customer details for Mrs Helen (65ee61c4)
+2020-01-06T11:45:23.0967465+05:30 0HLSIDV59T5AG:00000003 [INF] Renewal Invitation letter has been generated. (0bb30114)

@@ -34,7 +34,7 @@ namespace InvitationGenerator.API
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Renewal Invitation Generator API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Invitation Generator API", Version = "v1" });
             });
         }
 
@@ -45,7 +45,7 @@ namespace InvitationGenerator.API
                 app.UseDeveloperExceptionPage();
             }
 
-            loggerFactory.AddFile("Logs/PremiumInvitationGenerator-{Date}.txt");
+            loggerFactory.AddFile("Logs/InvitationGenerator-{Date}.txt");
 
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
@@ -54,7 +54,7 @@ namespace InvitationGenerator.API
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Renewal Invitation Generator API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Invitation Generator API V1");
             });
 
             app.UseRouting();
